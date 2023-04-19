@@ -15,7 +15,8 @@ export class StudentsComponent implements OnInit{
     this.studentService.getStudents()
     .subscribe(
       (successResponse)=>{
-        console.log(successResponse)
+        console.log(successResponse[0].firstName);
+        console.log(successResponse[0].lastName);
       },
       (errorResponse)=>{
         console.log(errorResponse);
