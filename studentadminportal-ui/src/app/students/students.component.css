@@ -1,3 +1,17 @@
 table {
   width: 100%;
 }
+.searh-input{
+  outline: none;
+  border:1px solid #CCC;
+  padding: 8px 10px;
+  padding-left: 16px;
+  padding-right: 16px;
+  border-radius: 3px;
+}
+.searh-input:active{
+  border:1px solid #BBB;
+}
+.searh-input:focus{
+  border:1px solid #AAA;
+}
